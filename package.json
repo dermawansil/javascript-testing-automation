@@ -1,0 +1,30 @@
+{
+  "name": "myskill-live-portofolio",
+  "version": "1.0.0",
+  "description": "mocha chai petStore example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test get": "mocha test/API/getExample.js",
+    "test post": "mocha test/API/postExample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dermawansil/myskill-Live-portofolio.git"
+  },
+  "author": "derma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dermawansil/myskill-Live-portofolio/issues"
+  },
+  "homepage": "https://github.com/dermawansil/myskill-Live-portofolio#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2"
+  }
+}
